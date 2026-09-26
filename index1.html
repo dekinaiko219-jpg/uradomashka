@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>дз</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: greenyellow;
+        }
+        .brat{
+            display: grid;
+            flex-direction: column;
+            gap: 22px;
+            padding: 22px;
+            margin: 0 auto;
+        }
+        .row{
+            display: flex;
+            gap: 22px;
+        }
+        .block{
+            background-color: black;
+            border-radius: 16px;
+            height: 167px;
+        }
+        .one{
+            flex: 1;
+        }
+        .two{
+            flex: 2;
+        }
+        .yyy{
+            height: 356px;
+            flex: 1;
+        }
+        .yyy2{
+            height: 356px;
+            flex: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="brat">
+        <div class="row">
+            <div class="block one"></div>
+            <div class="block two"></div>
+            <div class="block one"></div>
+        </div>
+        <div class="row">
+            <div class="block yyy"></div>
+            <div class="block yyy2"></div>
+            <div class="block yyy"></div>
+        </div>
+        
+        <div class="row">
+            <div class="block two"></div>
+            <div class="block two"></div>
+        </div>
+    </div>
+</body>
+</html>
